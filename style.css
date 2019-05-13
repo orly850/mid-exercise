@@ -1,6 +1,7 @@
 body{
     direction: rtl;
     text-align: right;
+    font-family: Arial, Helvetica, sans-serif
 }
 .container{
     width: 900px;
@@ -9,7 +10,52 @@ body{
 }
 .flex-container{
     display: flex;
+    justify-content: space-evenly;
 }
+
+.menu{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.inner-menu{
+    position: absolute;
+    display: none;
+}
+.inner-menu>a{
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    /* border: 1px solid; */
+    background-color: #999;
+}
+
+/* .divisions:hover > .inner-menu ,
+.about:hover > .inner-menu,
+.corporate-responsibility:hover > .inner-menu,
+.Investor-relations:hover > .inner-menu */
+
+li:hover >.inner-menu
+  {
+    display: block;
+}
+
+
+.inner-menu>a:hover{
+color: blue;
+background-color: #aaa;
+text-decoration-line: underline;
+}
+
 .cube{
     position: relative;
 }
@@ -19,4 +65,5 @@ body{
 }
 header{
     border: 1px solid;
+    background-color: #aaa;
 }
