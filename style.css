@@ -8,9 +8,11 @@ body{
 .container{
     width: 900px;
     margin: auto;
+    margin-top: 20px;
     border: 3px solid purple;
-    position: relative;
+    /* position: relative; */
 }
+
 
 .flex-container-search{
 display: flex;
@@ -27,10 +29,6 @@ justify-content:flex-end;
     text-decoration-line: underline;
 }
 
-/* .flex-container-footer{
-    display: flex;
-    justify-content: space-evenly; 
-} */
 
 .flex-container{
     display: flex;
@@ -42,29 +40,24 @@ justify-content:flex-end;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    position: relative;
 
 }
 
 
-
-
 .footer-menu{
-
-    color: green;
+    color: white;
     text-decoration: none;
     font-size: 14px;
-
 }
 
 .f-menu{
     text-align: center;
-
 }
 
 .footer-menu:hover, .top-menu:hover{
     color: rgb(0, 92, 160);
     text-decoration-line: underline;
-
     }
     
 ul{
@@ -99,7 +92,6 @@ text-decoration-line: underline;
 
 .paz-logo{
     position: absolute; 
-    /* border: 2px solid;  */
     width: 370px;
     text-align: end;
  }
@@ -130,12 +122,13 @@ text-decoration-line: underline;
     border: 1px solid;
     width: 250px;
     bottom:0;
-
 }
+
 header{
     padding-top:20px; 
     background-color: rgb(144, 144, 144);
 }
+
 footer{
     background-color: #999;
     position: fixed;
@@ -148,7 +141,6 @@ footer{
 }
 .text-on-pic{
     position: absolute;
-    /* border: 2px solid green; */
     top: 0px;
 }
 span{
