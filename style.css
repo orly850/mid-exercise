@@ -6,10 +6,10 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 .container{
-    position: relative;
     width: 900px;
     margin: auto;
     border: 3px solid purple;
+    position: relative;
 }
 
 .flex-container-search{
@@ -58,7 +58,6 @@ justify-content:flex-end;
 
 .f-menu{
     text-align: center;
-    /* position: fixed; */
 
 }
 
@@ -88,7 +87,6 @@ li:hover >.inner-menu
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    /* margin-left: 80px; */
     padding: 5px;
     background-color: #999;
 }
@@ -110,25 +108,27 @@ text-decoration-line: underline;
      padding: 0px;
  }
 
- /* .search{
-     margin: 0px 650px;
- }  */
-
- 
-
-/* .divisions:hover > .inner-menu ,
-.about:hover > .inner-menu,
-.corporate-responsibility:hover > .inner-menu,
-.Investor-relations:hover > .inner-menu */
-
-
-
-/* .cube{
-} */
-.content{
+.pos{
     position: absolute;
+    bottom:0px;
+}
+.pos2{
+    position: absolute;
+    bottom:0px;
+    left: 330px;
+}
+
+.pos3{
+    position: absolute;
+    bottom:0px;
+    left:35px;
+}
+
+ .content{
+    margin-right: 15px;
+    position: relative;
     border: 1px solid;
-    width: 300px;
+    width: 250px;
     bottom:0;
 
 }
@@ -140,5 +140,18 @@ footer{
     background-color: #999;
     position: fixed;
     bottom: 0px;
-
+}
+.content>a,p{
+    font-size: 13px;
+    color: white;
+    max-width: 230px;
+}
+.text-on-pic{
+    position: absolute;
+    /* border: 2px solid green; */
+    top: 0px;
+}
+span{
+    font-size: 14px;
+    font-weight: bold;
 }
