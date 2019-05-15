@@ -170,9 +170,10 @@ margin: 0px;
 
 /* --------------------------------------- */
 
-.content2>a{
+.content2>a  {
     
-color:blue;
+color:#72716d;
+float: left;
     }
 
     .cube2{
@@ -186,21 +187,42 @@ color:blue;
             position: absolute;  
             text-align: center;
 margin: 0px;
-        bottom:20px; 
+        bottom:30px; 
     
     }
     #pic{
         position: relative;
-        /* display: block; */
-        border: 1px solid;
-        /* width: 100px; */
+        width: 100px;
+        text-align: center;
+        top:70px;
     }
     #pic>a{
-        color: blueviolet;
+        color:#72716d; 
+    }
+    #pic>a:hover{
+        color: rgb(0, 92, 160);
     }
     #map{
         float: left;
     }
-    .content2>h5{
-padding-bottom: 20px;    }
-    
+    .content22{
+        position: absolute;  
+width: 250px;
+        bottom:10px; 
+
+    }
+    .content22>h5{
+        display: block;
+        position: relative;  
+        margin: 0px 10px;
+        top:50px;
+    }
+
+
+  .content2>a:hover{
+    color: rgb(0, 92, 160);
+
+  }
+
+
+
