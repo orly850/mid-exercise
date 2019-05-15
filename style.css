@@ -96,8 +96,8 @@ text-decoration-line: underline;
     position: absolute; 
     width: 370px;
     text-align: end;
-    bottom: 835px;
-    left: 1200px;
+    /* bottom: px;
+    left: 12px; */
  } 
 
  button{
@@ -111,9 +111,11 @@ border: 1px solid;
 
 footer{
     background-color: #999;
-    position: fixed;
+    /* position: fixed;
     bottom: 0px;
     width: 100%;
+    z-index: -1; */
+
 }
 
 /* ---------------------------------------------------------------------------------- */
@@ -166,4 +168,39 @@ margin: 0px;
    
 }
 
+/* --------------------------------------- */
 
+.content2>a{
+    
+color:blue;
+    }
+
+    .cube2{
+        position: relative;
+        width: 292PX;
+        height: 216PX;
+        /* border-bottom-right-radius: 25px; */
+    }
+    
+    .content2{
+            position: absolute;  
+            text-align: center;
+margin: 0px;
+        bottom:20px; 
+    
+    }
+    #pic{
+        position: relative;
+        /* display: block; */
+        border: 1px solid;
+        /* width: 100px; */
+    }
+    #pic>a{
+        color: blueviolet;
+    }
+    #map{
+        float: left;
+    }
+    .content2>h5{
+padding-bottom: 20px;    }
+    
