@@ -8,13 +8,14 @@ body{
 .container{
     width: 900px;
     margin: auto;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
 .flex-container-search{
 display: flex;
 justify-content:flex-end;
+padding: 10px;
 }
 .flex-container-search>a{ 
     color: white;
@@ -27,6 +28,12 @@ justify-content:flex-end;
     text-decoration-line: underline;
 }
 
+input[type=search] {
+    padding: 0px;
+    height: 20px;
+    margin-top: 4px;
+    border-top-right-radius: 10px;
+}
 
 .flex-container{ /*top-menu*/
     display: flex;
@@ -92,25 +99,28 @@ text-decoration-line: underline;
 
 #paz-logo{
     position: absolute; 
-    top:15px;
+    top:30px;
     right: 260px;
  } 
 
  button{
-     padding: 0px;
- }
+    background-color: #C6CDD0
+    }
 
  header{
-    background-color: rgb(144, 144, 144);
-border: 1px solid;
+    /* background-color: rgb(144, 144, 144); */
+    background-image: linear-gradient(to bottom, rgb(144, 144, 144) , rgb(180, 180, 180));
+    height: 105px;
+    margin-bottom: 30px;
 }
 
 footer{
     background-color: #999;
-    /* position: fixed;
+    position: fixed;
     bottom: 0px;
     width: 100%;
-    z-index: -1; */
+    z-index: 1;
+    height: 38px;
 
 }
 
